@@ -19,4 +19,4 @@ function Analysis () {
   )
 }
 
-export default Analysis
+export default Analysis 
