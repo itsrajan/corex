@@ -5,12 +5,43 @@
 @import 'base/base.css';
 @import 'base/typography.css';
 
-@import 'layout/header.css';
-@import 'layout/footer.css';
-
 @import 'components/buttons.css';
 @import 'components/home.css';
 @import 'components/login.css';
 @import 'components/form.css';
 @import 'components/nav.css';
 @import 'components/loading.css';
+
+a {
+	text-decoration: none;
+    background-color: #59bfff6e;
+		color: white;
+    padding: 0 .4em;
+    border-radius: 3px;
+		padding-top: -30px;
+}
+
+a:hover{
+	background-color: #59bfff6e;
+transition: all 0.3s ease;
+animation-timing-function: ease;
+
+}
+
+.accent1 {
+    z-index: 0;
+    position: absolute;
+    left: 0;
+    width: 700px;
+      margin: 0;
+  }
+  .accent2 {
+    z-index: 200;
+    position: absolute;
+    width: 700px;
+    right: 0;
+  }
+
+  html {
+      overflow-x: hidden !important;
+  }

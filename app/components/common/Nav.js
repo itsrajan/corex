@@ -16,6 +16,8 @@ class Nav extends Component {
       <div>
         <Link to='/dashboard' className='btn btn--dash btn--nav'>Dashboard</Link>
         <Link to='/analysis' className='btn btn--dash btn--nav'>Analysis</Link>
+        <Link to='/publish' className='btn btn--dash btn--nav'>Publish</Link>
+        <Link to='/present' className='btn btn--dash btn--nav'>Present</Link>
         {this.props.currentlySending ? (
           <LoadingButton className='btn--nav' />
         ) : (
@@ -33,7 +35,7 @@ class Nav extends Component {
       <div className='nav'>
         <div className='nav__wrapper'>
           <Link to='/' className='nav__logo-wrapper' onClick={this._clearError}>
-            <h1 className='nav__logo'>Core&nbsp;X</h1>
+            <h1 className='navlogo'>Core&nbsp;X</h1>
           </Link>
           {navButtons}
         </div>

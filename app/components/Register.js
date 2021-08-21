@@ -17,6 +17,8 @@ class Register extends Component {
 
     return (
       <div className='form-page__wrapper'>
+                <img src="../public/accent1.svg" className="accent1" alt="blob-blue"></img>
+        <img src="../public/accent2.svg" className="accent2" alt="blob-yellow"></img>
         <div className='form-page__form-wrapper'>
           <div className='form-page__form-header'>
             <h2 className='form-page__form-heading'>Register</h2>

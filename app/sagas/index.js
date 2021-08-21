@@ -36,7 +36,7 @@ export function * authorize ({username, password, isRegistering}) {
 
     return response
   } catch (error) {
-    console.log('hi')
+    console.log('THE SERVER IS UP AND RUNNING CODEX FOR THA WINNN')
     yield put({type: REQUEST_ERROR, error: error.message})
 
     return false

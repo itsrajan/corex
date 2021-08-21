@@ -2,6 +2,8 @@
   position: fixed;
   top: 0;
   left: 0;
+  background-color: #0c0c0f !important;
+  color: white !important;
   right: 0;
   height: $nav-height;
   box-shadow: 0 0 2px rgba(0,0,0,.5);
@@ -10,6 +12,8 @@
   align-items: center;
   background-color: #fff;
   z-index: 1;
+
+  
 }
 
 .nav__wrapper {
@@ -25,12 +29,13 @@
   text-decoration: none;
 }
 
-.nav__logo {
+.navlogo {
   font-size: 1em;
   margin: 0;
   user-select: none;
   color: $text-color;
   text-decoration: none;
+  color: white !important;
 }
 
 .btn--nav {
