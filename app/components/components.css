@@ -6,3 +6,7 @@
     height: 100% !important;
     margin-left: -36% !important;
 }
+
+ul {
+    line-height: 25px;
+}
