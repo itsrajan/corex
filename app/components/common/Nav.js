@@ -32,7 +32,7 @@ class Nav extends Component {
       <div className='nav'>
         <div className='nav__wrapper'>
           <Link to='/' className='nav__logo-wrapper' onClick={this._clearError}>
-            <h1 className='nav__logo'>Login&nbsp;Flow</h1>
+            <h1 className='nav__logo'>Core&nbsp;X</h1>
           </Link>
           {navButtons}
         </div>

@@ -1,8 +1,4 @@
-/**
-* Fake XMLHttpRequest wrapper
-*/
-
-import server from './fakeServer'
+import server from './Server'
 
 server.init()
 

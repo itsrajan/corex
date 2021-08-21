@@ -24,7 +24,7 @@ class Form extends Component {
             type='text'
             id='username'
             value={this.props.data.username}
-            placeholder='frank.underwood'
+            placeholder='demo@corex.com'
             onChange={this._changeUsername}
             autoCorrect='off'
             autoCapitalize='off'

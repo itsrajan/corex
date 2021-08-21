@@ -1,4 +1,6 @@
-import React from 'react'
+import React from 'react';
+import Iframe from 'react-iframe';
+import './components.css';
 
 function Dashboard () {
   return (
@@ -6,8 +8,12 @@ function Dashboard () {
       <section className='text-section'>
         <h1>Dashboard</h1>
         <p>
-          Welcome, you are logged in! To have a look at the code behind this application, go to <a href='https://github.com/sotojuan/saga-login-flow'>Github</a>.
+          Dashboard
         </p>
+        <Iframe url="https://share.streamlit.io/corex-peddie/machine-learning/ML-App/app.py"
+        id="myId"
+        className="myClassname"
+        position="fixed"/>
       </section>
     </article>
   )

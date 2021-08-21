@@ -26,7 +26,7 @@ class Register extends Component {
       </div>
     )
   }
-
+  
   _register (username, password) {
     this.props.dispatch(registerRequest({username, password}))
   }
