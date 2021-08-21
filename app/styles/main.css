@@ -1,20 +1,16 @@
-/* Do not write any CSS in here, add it to the appropriate module or make a new one and import it here. */
+@import 'vendor/normalize.css';
+@import 'utils/variables.css';
+@import 'base/helpers.css';
 
-@charset 'UTF-8';
+@import 'base/base.css';
+@import 'base/typography.css';
 
-@import 'vendor/_normalize.css';
-@import 'utils/_variables.css';
-@import 'base/_helpers.css';
+@import 'layout/header.css';
+@import 'layout/footer.css';
 
-@import 'base/_base.css';
-@import 'base/_typography.css';
-
-@import 'layout/_header.css';
-@import 'layout/_footer.css';
-
-@import 'components/_buttons.css';
-@import 'components/_home.css';
-@import 'components/_form-page.css';
-@import 'components/_form.css';
-@import 'components/_nav.css';
-@import 'components/_loading-indicator.css';
+@import 'components/buttons.css';
+@import 'components/home.css';
+@import 'components/login.css';
+@import 'components/form.css';
+@import 'components/nav.css';
+@import 'components/loading.css';
