@@ -1,4 +1,4 @@
-import React, {Component} from 'react'
+import React, { Component } from 'react'
 import ErrorMessage from './ErrorMessage'
 import LoadingButton from './LoadingButton'
 
@@ -74,16 +74,6 @@ class Form extends Component {
     event.preventDefault()
     this.props.onSubmit(this.props.data.username, this.props.data.password)
   }
-}
-
-Form.propTypes = {
-  dispatch: React.PropTypes.func,
-  data: React.PropTypes.object,
-  onSubmit: React.PropTypes.func,
-  changeForm: React.PropTypes.func,
-  btnText: React.PropTypes.string,
-  error: React.PropTypes.string,
-  currentlySending: React.PropTypes.bool
 }
 
 export default Form

@@ -2,7 +2,7 @@ import 'babel-polyfill'
 
 import React, {Component} from 'react'
 import ReactDOM from 'react-dom'
-import {Router, Route, browserHistory} from 'react-router'
+import { Router, Route, browserHistory } from 'react-router';
 import {createStore, applyMiddleware} from 'redux'
 import createSagaMiddleware from 'redux-saga'
 import {Provider} from 'react-redux'

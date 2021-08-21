@@ -26,17 +26,17 @@ class Register extends Component {
       </div>
     )
   }
-  
+
   _register (username, password) {
     this.props.dispatch(registerRequest({username, password}))
   }
 }
-
+{/*
 Register.propTypes = {
   data: React.PropTypes.object,
   history: React.PropTypes.object,
   dispatch: React.PropTypes.func
-}
+}*/}
 
 function select (state) {
   return {
