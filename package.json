@@ -1,24 +1,18 @@
 {
-  "name": "saga-login-flow",
+  "name": "CoreX",
   "version": "0.0.0",
-  "description": "A login/register flow built with React & Redux Saga",
+  "description": "Decentralized Financial Analysis Platform to Supercharge Small Businesses",
   "scripts": {
     "start": "node server.js",
     "build": "webpack --config webpack/prod.js --progress --colors -p",
     "test": "standard | snazzy --verbose && NODE_ENV=test ava --verbose",
     "deploy": "npm run build && surge -p build -d saga-login-flow.surge.sh"
   },
-  "repository": "sotojuan/login-flow",
+  "repository": "corex-peddie/website",
   "author": {
-    "name": "Juan Soto",
-    "email": "juan@juansoto.me",
-    "url": "juansoto.me"
+    "name": "Rajan Agarwal"
   },
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/sotojuan/saga-login-flow/issues"
-  },
-  "homepage": "https://github.com/sotojuan/saga-login-flow#readme",
   "devDependencies": {
     "autoprefixer": "^6.6.1",
     "ava": "^0.19.1",
