@@ -1,5 +1,4 @@
 import React from 'react';
-import Iframe from 'react-iframe';
 import './components.css';
 
 function Dashboard () {
@@ -10,10 +9,6 @@ function Dashboard () {
         <p>
           Dashboard
         </p>
-        <Iframe url="https://share.streamlit.io/corex-peddie/machine-learning/ML-App/app.py"
-        id="myId"
-        className="myClassname"
-        position="fixed"/>
       </section>
     </article>
   )

@@ -15,6 +15,7 @@ class Nav extends Component {
     const navButtons = this.props.loggedIn ? (
       <div>
         <Link to='/dashboard' className='btn btn--dash btn--nav'>Dashboard</Link>
+        <Link to='/analysis' className='btn btn--dash btn--nav'>Analysis</Link>
         {this.props.currentlySending ? (
           <LoadingButton className='btn--nav' />
         ) : (
