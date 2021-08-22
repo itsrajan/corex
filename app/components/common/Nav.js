@@ -16,6 +16,7 @@ class Nav extends Component {
       <div>
         <Link to='/dashboard' className='btn btn--dash btn--nav'>Dashboard</Link>
         <Link to='/analysis' className='btn btn--dash btn--nav'>Analysis</Link>
+        <Link to='/xdb' className='btn btn--dash btn--nav'>XDB</Link>
         <Link to='/publish' className='btn btn--dash btn--nav'>Publish</Link>
         <Link to='/present' className='btn btn--dash btn--nav'>Present</Link>
         {this.props.currentlySending ? (

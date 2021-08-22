@@ -1,5 +1,6 @@
 import React from 'react';
 import './components.css';
+import Iframe from 'react-iframe';
 
 
 function Dashboard () {
@@ -23,9 +24,11 @@ function Dashboard () {
               <li>Dashboard <code>/dashboard</code></li>
               <li>Analysis <code>/analysis</code></li>
             </ul>
-            <p>Import Financial Data</p>
       </section>
-     
+      <Iframe url="https://crud.rajnagrwl.repl.co/table.html"
+        id="myId"
+        className="crud"
+        position="fixed"/>
     </article>
   )
 }

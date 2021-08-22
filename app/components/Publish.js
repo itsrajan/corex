@@ -4,9 +4,15 @@ import './components.css';
 
 function Publish () {
   return (
+    <div>
     <article>
-      <p>hi</p>
+      <Iframe url="https://crud.rajnagrwl.repl.co/"
+        id="myId"
+        className="crud"
+        position="fixed"/>
+        
     </article>
+    </div>
   )
 }
 
