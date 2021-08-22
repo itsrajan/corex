@@ -6,9 +6,9 @@ function XDB () {
   return (
     <article>
       <section className='text-section'>
-      <Iframe url="https://docs.google.com/presentation/d/e/2PACX-1vSDssBJ3DpjYjHCgbqUCoNHS_QHiMJ3qP4NWaase4coXYIRGjmUyE1jNlsz9LlcWA5t5kwve3397jvT/embed?start=false&loop=false&delayms=3000"
+      <Iframe url="https://replit.com/@GEEGABYTE1/decentralization?lite=true"
         id="myId"
-        className="presentation"
+        className="xdb"
         position="fixed"/>
       </section>
     </article>

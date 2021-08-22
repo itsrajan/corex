@@ -25,6 +25,14 @@
     margin-left: -36% !important;
 }
 
+.xdb {
+    padding-left: 0 !important;
+    margin-left: 0 !important;
+    padding-top: 140px !important;
+    width: 100% !important;
+    height: 100% !important;
+    margin-left: -36% !important;
+}
 
 ul {
     line-height: 25px;
@@ -39,3 +47,17 @@ Iframe {
     margin-top: -100px;
     border: 1px transparent;
 }
+
+.accent1 {
+    z-index: 0;
+    position: absolute;
+    left: 0;
+    width: 600px;
+      margin: 0;
+  }
+  .accent2 {
+    z-index: 0;
+    position: absolute;
+    width: 500px;
+    right: 0;
+  }
